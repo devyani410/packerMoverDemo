@@ -1,0 +1,46 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+.img{
+    /* height: 80vh; */
+    /* opacity: 0.8; */
+    height: 70vh;
+}
+
+
+.carousel-caption{
+   
+    bottom: 220px;
+    z-index: 2;
+   
+   
+}
+.section{
+    margin: 5%;
+}
+.d-md-block{
+    
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+
+}
+.carousel-caption p{
+    width:  60%;
+   margin: auto;
+   font-size: 18px ;
+   line-height: 1.9;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(83, 16, 16, 0.7);
+    z-index: 1;
+}
