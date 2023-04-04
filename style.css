@@ -1,6 +1,10 @@
 *{
     font-family: 'Quicksand', sans-serif;
 }
+
+nav a:hover {
+    padding: 6px 0; 
+  }
 .img{
     /* height: 80vh; */
     /* opacity: 0.8; */
@@ -21,14 +25,16 @@
 .d-md-block{
     
 }
-.carousel-caption h5{
+.carousel-caption {
     font-size: 45px;
     text-transform: uppercase;
   letter-spacing: 2px;
   margin-top: 25px;
 
 }
-.carousel-caption p{
+.carousel-caption {
+    position: fixed;
+    align-items: center;
     width:  60%;
    margin: auto;
    font-size: 18px ;
@@ -41,6 +47,67 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(83, 16, 16, 0.7);
+    background: rgba(112, 10, 10, 0.7);
     z-index: 1;
 }
+.btn:hover {
+    background-image:  linear-gradient(red,black);
+}
+
+.nav-item:hover{
+    text-shadow: 10px;
+    color: blue;
+}
+/* .carousel-caption {
+    position: relative !important;
+    width: 550px;
+    top: 210px;
+    left: 380px !important;
+    z-index: 600;
+    max-height:177px;
+    
+    } */
+    .carousel-caption h3 {
+
+        font-size: 44px !important;
+        font-weight: 700 !important;
+        line-height:36px !important;    
+        color: rgb(255, 255, 255) !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        text-shadow: 0px 0px 4px rgb(86, 2, 2) !important;
+        font-family: 'Climate Crisis', cursive;
+
+        /* text-align: left !important; */
+    }
+    
+    .carousel-caption h5  {
+        margin-top: 11px !important;
+        font-size:18px !important;
+        line-height:21px !important;
+        color:rgb(221, 221, 221) !important;
+        padding-bottom: 11px !important;
+        margin-bottom: 11px !important;
+        text-shadow: 0px 0px 4px rgb(189, 174, 174) !important;
+        /* text-align: left !important; */
+    } 
+    
+    .carousel-caption {
+        width: 550px;
+        left: 15%;
+        top: 60% !important;
+        transform: translateY(-50%);
+        text-align: left;
+        bottom: initial;
+        }
+    /* .carousel-control.left, .carousel-control.right {
+        background-image: none !important;
+    } */
+    
+     /* .carousel-indicators {
+        left: 405px !important;
+    }  */
+
+
+
+      
